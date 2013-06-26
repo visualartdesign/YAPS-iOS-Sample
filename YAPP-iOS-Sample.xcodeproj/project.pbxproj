@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0326DF3D1769F1B40029B24D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0326DF3C1769F1B40029B24D /* AudioToolbox.framework */; };
+		0326DF3F176A47F30029B24D /* bell.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0326DF3E176A47F30029B24D /* bell.caf */; };
+		03AADA9B175CA33E00D7EA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AADA9A175CA33E00D7EA40 /* UIKit.framework */; };
+		03AADA9D175CA33E00D7EA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AADA9C175CA33E00D7EA40 /* Foundation.framework */; };
+		03AADA9F175CA33E00D7EA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AADA9E175CA33E00D7EA40 /* CoreGraphics.framework */; };
+		03AADAA5175CA33E00D7EA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAA3175CA33E00D7EA40 /* InfoPlist.strings */; };
+		03AADAA7175CA33E00D7EA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AADAA6175CA33E00D7EA40 /* main.m */; };
+		03AADAAB175CA33E00D7EA40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AADAAA175CA33E00D7EA40 /* AppDelegate.m */; };
+		03AADAAD175CA33E00D7EA40 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAAC175CA33E00D7EA40 /* Default.png */; };
+		03AADAAF175CA33E00D7EA40 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAAE175CA33E00D7EA40 /* Default@2x.png */; };
+		03AADAB1175CA33E00D7EA40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAB0175CA33E00D7EA40 /* Default-568h@2x.png */; };
+		03AADAC2175CA53300D7EA40 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAB8175CA53300D7EA40 /* Icon-72.png */; };
+		03AADAC3175CA53300D7EA40 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAB9175CA53300D7EA40 /* Icon-72@2x.png */; };
+		03AADAC4175CA53300D7EA40 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABA175CA53300D7EA40 /* Icon-Small-50.png */; };
+		03AADAC5175CA53300D7EA40 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABB175CA53300D7EA40 /* Icon-Small-50@2x.png */; };
+		03AADAC6175CA53300D7EA40 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABC175CA53300D7EA40 /* Icon-Small.png */; };
+		03AADAC7175CA53300D7EA40 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABD175CA53300D7EA40 /* Icon-Small@2x.png */; };
+		03AADAC8175CA53300D7EA40 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABE175CA53300D7EA40 /* Icon.png */; };
+		03AADAC9175CA53300D7EA40 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AADABF175CA53300D7EA40 /* Icon@2x.png */; };
+		03AADACA175CA53300D7EA40 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAC0175CA53300D7EA40 /* iTunesArtwork */; };
+		03AADACB175CA53300D7EA40 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 03AADAC1175CA53300D7EA40 /* iTunesArtwork@2x */; };
+		03AADAD8175CBCA600D7EA40 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AADAD7175CBCA600D7EA40 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0326DF3C1769F1B40029B24D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0326DF3E176A47F30029B24D /* bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.caf; sourceTree = "<group>"; };
+		03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YAPP-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AADA9A175CA33E00D7EA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03AADA9C175CA33E00D7EA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03AADA9E175CA33E00D7EA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03AADAA2175CA33E00D7EA40 /* YAPP-iOS-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPP-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
+		03AADAA4175CA33E00D7EA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03AADAA6175CA33E00D7EA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AADAA8175CA33E00D7EA40 /* YAPP-iOS-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAPP-iOS-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		03AADAA9175CA33E00D7EA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AADAAA175CA33E00D7EA40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AADAAC175CA33E00D7EA40 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03AADAAE175CA33E00D7EA40 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03AADAB0175CA33E00D7EA40 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03AADAB8175CA53300D7EA40 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		03AADAB9175CA53300D7EA40 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		03AADABA175CA53300D7EA40 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		03AADABB175CA53300D7EA40 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		03AADABC175CA53300D7EA40 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		03AADABD175CA53300D7EA40 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		03AADABE175CA53300D7EA40 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		03AADABF175CA53300D7EA40 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		03AADAC0175CA53300D7EA40 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		03AADAC1175CA53300D7EA40 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		03AADACE175CA71900D7EA40 /* version.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = version.xcconfig; sourceTree = SOURCE_ROOT; };
+		03AADAD6175CBCA600D7EA40 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		03AADAD7175CBCA600D7EA40 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AADA94175CA33E00D7EA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326DF3D1769F1B40029B24D /* AudioToolbox.framework in Frameworks */,
+				03AADA9B175CA33E00D7EA40 /* UIKit.framework in Frameworks */,
+				03AADA9D175CA33E00D7EA40 /* Foundation.framework in Frameworks */,
+				03AADA9F175CA33E00D7EA40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AADA8E175CA33E00D7EA40 = {
+			isa = PBXGroup;
+			children = (
+				03AADAA0175CA33E00D7EA40 /* YAPP-iOS-Sample */,
+				03AADA99175CA33E00D7EA40 /* Frameworks */,
+				03AADA98175CA33E00D7EA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AADA98175CA33E00D7EA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AADA99175CA33E00D7EA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0326DF3C1769F1B40029B24D /* AudioToolbox.framework */,
+				03AADA9A175CA33E00D7EA40 /* UIKit.framework */,
+				03AADA9C175CA33E00D7EA40 /* Foundation.framework */,
+				03AADA9E175CA33E00D7EA40 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03AADAA0175CA33E00D7EA40 /* YAPP-iOS-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				03AADACE175CA71900D7EA40 /* version.xcconfig */,
+				03AADAA9175CA33E00D7EA40 /* AppDelegate.h */,
+				03AADAAA175CA33E00D7EA40 /* AppDelegate.m */,
+				03AADAD5175CBC8700D7EA40 /* ViewController */,
+				03AADAA1175CA33E00D7EA40 /* Supporting Files */,
+			);
+			path = "YAPP-iOS-Sample";
+			sourceTree = "<group>";
+		};
+		03AADAA1175CA33E00D7EA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AADAB7175CA51900D7EA40 /* Images */,
+				0326DF3E176A47F30029B24D /* bell.caf */,
+				03AADAA2175CA33E00D7EA40 /* YAPP-iOS-Sample-Info.plist */,
+				03AADAA3175CA33E00D7EA40 /* InfoPlist.strings */,
+				03AADAA6175CA33E00D7EA40 /* main.m */,
+				03AADAA8175CA33E00D7EA40 /* YAPP-iOS-Sample-Prefix.pch */,
+				03AADAAC175CA33E00D7EA40 /* Default.png */,
+				03AADAAE175CA33E00D7EA40 /* Default@2x.png */,
+				03AADAB0175CA33E00D7EA40 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AADAB7175CA51900D7EA40 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03AADAB8175CA53300D7EA40 /* Icon-72.png */,
+				03AADAB9175CA53300D7EA40 /* Icon-72@2x.png */,
+				03AADABA175CA53300D7EA40 /* Icon-Small-50.png */,
+				03AADABB175CA53300D7EA40 /* Icon-Small-50@2x.png */,
+				03AADABC175CA53300D7EA40 /* Icon-Small.png */,
+				03AADABD175CA53300D7EA40 /* Icon-Small@2x.png */,
+				03AADABE175CA53300D7EA40 /* Icon.png */,
+				03AADABF175CA53300D7EA40 /* Icon@2x.png */,
+				03AADAC0175CA53300D7EA40 /* iTunesArtwork */,
+				03AADAC1175CA53300D7EA40 /* iTunesArtwork@2x */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		03AADAD5175CBC8700D7EA40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03AADAD6175CBCA600D7EA40 /* MainViewController.h */,
+				03AADAD7175CBCA600D7EA40 /* MainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AADA96175CA33E00D7EA40 /* YAPP-iOS-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPP-iOS-Sample" */;
+			buildPhases = (
+				03AADA93175CA33E00D7EA40 /* Sources */,
+				03AADA94175CA33E00D7EA40 /* Frameworks */,
+				03AADA95175CA33E00D7EA40 /* Resources */,
+				03AADAD0175CA76900D7EA40 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAPP-iOS-Sample";
+			productName = "YAPP-iOS-Sample";
+			productReference = 03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AADA8F175CA33E00D7EA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Visual Art & Design - Lars Bergelt";
+			};
+			buildConfigurationList = 03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPP-iOS-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03AADA8E175CA33E00D7EA40;
+			productRefGroup = 03AADA98175CA33E00D7EA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AADA96175CA33E00D7EA40 /* YAPP-iOS-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AADA95175CA33E00D7EA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AADAA5175CA33E00D7EA40 /* InfoPlist.strings in Resources */,
+				03AADAAD175CA33E00D7EA40 /* Default.png in Resources */,
+				03AADAAF175CA33E00D7EA40 /* Default@2x.png in Resources */,
+				03AADAB1175CA33E00D7EA40 /* Default-568h@2x.png in Resources */,
+				03AADAC2175CA53300D7EA40 /* Icon-72.png in Resources */,
+				03AADAC3175CA53300D7EA40 /* Icon-72@2x.png in Resources */,
+				03AADAC4175CA53300D7EA40 /* Icon-Small-50.png in Resources */,
+				03AADAC5175CA53300D7EA40 /* Icon-Small-50@2x.png in Resources */,
+				03AADAC6175CA53300D7EA40 /* Icon-Small.png in Resources */,
+				03AADAC7175CA53300D7EA40 /* Icon-Small@2x.png in Resources */,
+				03AADAC8175CA53300D7EA40 /* Icon.png in Resources */,
+				03AADAC9175CA53300D7EA40 /* Icon@2x.png in Resources */,
+				03AADACA175CA53300D7EA40 /* iTunesArtwork in Resources */,
+				03AADACB175CA53300D7EA40 /* iTunesArtwork@2x in Resources */,
+				0326DF3F176A47F30029B24D /* bell.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AADAD0175CA76900D7EA40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NEW_VERSION=`cat \"$SRCROOT/version.xcconfig\" | awk '/CURRENT_PROJECT_VERSION/ { print $3 + 1 }'`\nsed -i '' \"s/CURRENT_PROJECT_VERSION = .*/CURRENT_PROJECT_VERSION = $NEW_VERSION/\" \"$SRCROOT/version.xcconfig\"\nCURRENT_PROJECT_VERSION=$NEW_VERSION\n\n\nNEW_DATE= `date +%Y%m%d`\nsed -i '' \"s/CURRENT_PROJECT_DATE = .*/CURRENT_PROJECT_DATE = `date +%Y%m%d`/\" \"$SRCROOT/version.xcconfig\"\nCURRENT_PROJECT_DATE=$NEW_DATE\n\ntouch \"$SRCROOT/version.xcconfig\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AADA93175CA33E00D7EA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AADAA7175CA33E00D7EA40 /* main.m in Sources */,
+				03AADAAB175CA33E00D7EA40 /* AppDelegate.m in Sources */,
+				03AADAD8175CBCA600D7EA40 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03AADAA3175CA33E00D7EA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AADAA4175CA33E00D7EA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AADAB2175CA33E00D7EA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AADACE175CA71900D7EA40 /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AADAB3175CA33E00D7EA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AADACE175CA71900D7EA40 /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AADAB5175CA33E00D7EA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AADACE175CA71900D7EA40 /* version.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lars Bergelt (4H223V33QE)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPP-iOS-Sample/YAPP-iOS-Sample-Prefix.pch";
+				INFOPLIST_FILE = "YAPP-iOS-Sample/YAPP-iOS-Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "YAPP-Sample";
+				PROVISIONING_PROFILE = "7ED429A3-3F53-4722-895E-C430F7EA6219";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03AADAB6175CA33E00D7EA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AADACE175CA71900D7EA40 /* version.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lars Bergelt (PN88ZJWF75)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPP-iOS-Sample/YAPP-iOS-Sample-Prefix.pch";
+				INFOPLIST_FILE = "YAPP-iOS-Sample/YAPP-iOS-Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "YAPP-Sample";
+				PROVISIONING_PROFILE = "6E002AA4-8422-4388-B8C7-60C1E96B2217";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPP-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AADAB2175CA33E00D7EA40 /* Debug */,
+				03AADAB3175CA33E00D7EA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPP-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AADAB5175CA33E00D7EA40 /* Debug */,
+				03AADAB6175CA33E00D7EA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AADA8F175CA33E00D7EA40 /* Project object */;
+}
