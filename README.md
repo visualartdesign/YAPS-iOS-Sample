@@ -1,7 +1,7 @@
-![My image](http://www.lbergelt.com/application/img/yapp_icon.png)
+![Icon](http://www.lbergelt.com/application/img/yapp_icon.png)
 
-YAPP-iOS-Sample
-===============
+#YAPP-iOS-Sample
+Yet Another Push Plugin
 
 ## Copyright
 
@@ -11,6 +11,10 @@ YAPP-iOS-Sample
 Follow me on twitter to get updated : [@VisualArtDesign](http://www.twitter.com/VisualArtDesign)
 
 
+##Description
+This app is a sample to test the functionality of the "Yet Another push Plugin" for WordPress.
+This app registers itself in the WordPress blog and then can receive push messages. With open app, the received message is output as text.!
+[Screenshot](http://www.lbergelt.com/application/img/yapp_screenshot.png)
 
 
 #####Create the Push certificates:

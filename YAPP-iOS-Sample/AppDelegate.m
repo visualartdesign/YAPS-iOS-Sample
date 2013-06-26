@@ -12,7 +12,7 @@
 
 // Wordpress URL
 #warning Enter your Wordpress URL.
-#define     YAPPURL     @"http://"
+#define     YAPPURL     @""
 
 // YAPP Password
 #warning Enter your YAPP-Password. You find it at the Wordpress YAPP Options page
