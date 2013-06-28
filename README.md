@@ -30,7 +30,7 @@ Open a terminal and change to the directory where the certificate is located and
 
 
 #####without password
-Export the certificate and private key from the keyring.
+Export the certificate and private key from the keychain.
 Open a terminal and change to the directory where the certificate and the key is located and enter the following:
 ```
 	openssl pkcs12 -clcerts -nokeys -out apsCert.pem -in apsCert.p12
