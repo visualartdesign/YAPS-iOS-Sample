@@ -1,10 +1,10 @@
 //
 //  Version.xcconfig
-//  YAPP-iOS-Sample
+//  YAPS-iOS-Sample
 //
 //  Created by Lars Bergelt on 03.06.13.
 //  Copyright 2013 Visual Art & Design. All rights reserved.
 //
 
-CURRENT_PROJECT_VERSION = 29
-CURRENT_PROJECT_DATE = 20130626
+CURRENT_PROJECT_VERSION = 30
+CURRENT_PROJECT_DATE = 20130701

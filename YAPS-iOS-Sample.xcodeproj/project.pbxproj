@@ -34,14 +34,14 @@
 /* Begin PBXFileReference section */
 		0326DF3C1769F1B40029B24D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0326DF3E176A47F30029B24D /* bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.caf; sourceTree = "<group>"; };
-		03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YAPP-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AADA97175CA33E00D7EA40 /* YAPS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YAPS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AADA9A175CA33E00D7EA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03AADA9C175CA33E00D7EA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03AADA9E175CA33E00D7EA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		03AADAA2175CA33E00D7EA40 /* YAPP-iOS-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPP-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
+		03AADAA2175CA33E00D7EA40 /* YAPS-iOS-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPS-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
 		03AADAA4175CA33E00D7EA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03AADAA6175CA33E00D7EA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03AADAA8175CA33E00D7EA40 /* YAPP-iOS-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAPP-iOS-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		03AADAA8175CA33E00D7EA40 /* YAPS-iOS-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAPS-iOS-Sample-Prefix.pch"; sourceTree = "<group>"; };
 		03AADAA9175CA33E00D7EA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03AADAAA175CA33E00D7EA40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03AADAAC175CA33E00D7EA40 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		03AADA8E175CA33E00D7EA40 = {
 			isa = PBXGroup;
 			children = (
-				03AADAA0175CA33E00D7EA40 /* YAPP-iOS-Sample */,
+				03AADAA0175CA33E00D7EA40 /* YAPS-iOS-Sample */,
 				03AADA99175CA33E00D7EA40 /* Frameworks */,
 				03AADA98175CA33E00D7EA40 /* Products */,
 			);
@@ -89,7 +89,7 @@
 		03AADA98175CA33E00D7EA40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */,
+				03AADA97175CA33E00D7EA40 /* YAPS-Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		03AADAA0175CA33E00D7EA40 /* YAPP-iOS-Sample */ = {
+		03AADAA0175CA33E00D7EA40 /* YAPS-iOS-Sample */ = {
 			isa = PBXGroup;
 			children = (
 				03AADACE175CA71900D7EA40 /* version.xcconfig */,
@@ -114,7 +114,7 @@
 				03AADAD5175CBC8700D7EA40 /* ViewController */,
 				03AADAA1175CA33E00D7EA40 /* Supporting Files */,
 			);
-			path = "YAPP-iOS-Sample";
+			path = "YAPS-iOS-Sample";
 			sourceTree = "<group>";
 		};
 		03AADAA1175CA33E00D7EA40 /* Supporting Files */ = {
@@ -122,10 +122,10 @@
 			children = (
 				03AADAB7175CA51900D7EA40 /* Images */,
 				0326DF3E176A47F30029B24D /* bell.caf */,
-				03AADAA2175CA33E00D7EA40 /* YAPP-iOS-Sample-Info.plist */,
+				03AADAA2175CA33E00D7EA40 /* YAPS-iOS-Sample-Info.plist */,
 				03AADAA3175CA33E00D7EA40 /* InfoPlist.strings */,
 				03AADAA6175CA33E00D7EA40 /* main.m */,
-				03AADAA8175CA33E00D7EA40 /* YAPP-iOS-Sample-Prefix.pch */,
+				03AADAA8175CA33E00D7EA40 /* YAPS-iOS-Sample-Prefix.pch */,
 				03AADAAC175CA33E00D7EA40 /* Default.png */,
 				03AADAAE175CA33E00D7EA40 /* Default@2x.png */,
 				03AADAB0175CA33E00D7EA40 /* Default-568h@2x.png */,
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03AADA96175CA33E00D7EA40 /* YAPP-iOS-Sample */ = {
+		03AADA96175CA33E00D7EA40 /* YAPS-iOS-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPP-iOS-Sample" */;
+			buildConfigurationList = 03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPS-iOS-Sample" */;
 			buildPhases = (
 				03AADA93175CA33E00D7EA40 /* Sources */,
 				03AADA94175CA33E00D7EA40 /* Frameworks */,
@@ -175,9 +175,9 @@
 			);
 			dependencies = (
 			);
-			name = "YAPP-iOS-Sample";
+			name = "YAPS-iOS-Sample";
 			productName = "YAPP-iOS-Sample";
-			productReference = 03AADA97175CA33E00D7EA40 /* YAPP-Sample.app */;
+			productReference = 03AADA97175CA33E00D7EA40 /* YAPS-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Visual Art & Design - Lars Bergelt";
 			};
-			buildConfigurationList = 03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPP-iOS-Sample" */;
+			buildConfigurationList = 03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPS-iOS-Sample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -201,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03AADA96175CA33E00D7EA40 /* YAPP-iOS-Sample */,
+				03AADA96175CA33E00D7EA40 /* YAPS-iOS-Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -336,10 +336,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lars Bergelt (4H223V33QE)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YAPP-iOS-Sample/YAPP-iOS-Sample-Prefix.pch";
-				INFOPLIST_FILE = "YAPP-iOS-Sample/YAPP-iOS-Sample-Info.plist";
+				GCC_PREFIX_HEADER = "YAPS-iOS-Sample/YAPS-iOS-Sample-Prefix.pch";
+				INFOPLIST_FILE = "YAPS-iOS-Sample/YAPS-iOS-Sample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "YAPP-Sample";
+				PRODUCT_NAME = "YAPS-Sample";
 				PROVISIONING_PROFILE = "7ED429A3-3F53-4722-895E-C430F7EA6219";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -352,10 +352,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lars Bergelt (PN88ZJWF75)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YAPP-iOS-Sample/YAPP-iOS-Sample-Prefix.pch";
-				INFOPLIST_FILE = "YAPP-iOS-Sample/YAPP-iOS-Sample-Info.plist";
+				GCC_PREFIX_HEADER = "YAPS-iOS-Sample/YAPS-iOS-Sample-Prefix.pch";
+				INFOPLIST_FILE = "YAPS-iOS-Sample/YAPS-iOS-Sample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "YAPP-Sample";
+				PRODUCT_NAME = "YAPS-Sample";
 				PROVISIONING_PROFILE = "6E002AA4-8422-4388-B8C7-60C1E96B2217";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -365,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPP-iOS-Sample" */ = {
+		03AADA92175CA33E00D7EA40 /* Build configuration list for PBXProject "YAPS-iOS-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03AADAB2175CA33E00D7EA40 /* Debug */,
@@ -374,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPP-iOS-Sample" */ = {
+		03AADAB4175CA33E00D7EA40 /* Build configuration list for PBXNativeTarget "YAPS-iOS-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03AADAB5175CA33E00D7EA40 /* Debug */,

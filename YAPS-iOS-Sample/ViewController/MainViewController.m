@@ -1,6 +1,6 @@
 //
 //  MainViewController.m
-//  YAPP-iOS-Sample
+//  YAPS-iOS-Sample
 //
 //  Created by Lars Bergelt on 03.06.13.
 //  Copyright (c) 2013 Visual Art & Design - Lars Bergelt. All rights reserved.
@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivePush:) name:@"YAPP_RECEIVE_PUSH" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivePush:) name:@"YAPS_RECEIVE_PUSH" object:nil];
     
     NSString *appVersionsnumber = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *bundleVersionnumber = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];

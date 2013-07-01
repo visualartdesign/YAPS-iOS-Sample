@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "03AADA96175CA33E00D7EA40"
                BuildableName = "YAPP-Sample.app"
-               BlueprintName = "YAPP-iOS-Sample"
-               ReferencedContainer = "container:YAPP-iOS-Sample.xcodeproj">
+               BlueprintName = "YAPS-iOS-Sample"
+               ReferencedContainer = "container:YAPS-iOS-Sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03AADA96175CA33E00D7EA40"
             BuildableName = "YAPP-Sample.app"
-            BlueprintName = "YAPP-iOS-Sample"
-            ReferencedContainer = "container:YAPP-iOS-Sample.xcodeproj">
+            BlueprintName = "YAPS-iOS-Sample"
+            ReferencedContainer = "container:YAPS-iOS-Sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03AADA96175CA33E00D7EA40"
             BuildableName = "YAPP-Sample.app"
-            BlueprintName = "YAPP-iOS-Sample"
-            ReferencedContainer = "container:YAPP-iOS-Sample.xcodeproj">
+            BlueprintName = "YAPS-iOS-Sample"
+            ReferencedContainer = "container:YAPS-iOS-Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03AADA96175CA33E00D7EA40"
             BuildableName = "YAPP-Sample.app"
-            BlueprintName = "YAPP-iOS-Sample"
-            ReferencedContainer = "container:YAPP-iOS-Sample.xcodeproj">
+            BlueprintName = "YAPS-iOS-Sample"
+            ReferencedContainer = "container:YAPS-iOS-Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

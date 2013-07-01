@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  YAPP-iOS-Sample
+//  YAPS-iOS-Sample
 //
 //  Created by Lars Bergelt on 03.06.13.
 //  Copyright (c) 2013 Visual Art & Design - Lars Bergelt. All rights reserved.
@@ -12,11 +12,11 @@
 
 // Wordpress URL
 #warning Enter your Wordpress URL.
-#define     YAPPURL     @""
+#define     YAPSURL     @""
 
-// YAPP Password
-#warning Enter your YAPP-Password. You find it at the Wordpress YAPP Options page
-#define     YAPPKEY     @""
+// YAPS Password
+#warning Enter your YAPS-Password. You find it at the Wordpress YAPS Options page
+#define     YAPSKEY     @""
 
 @implementation AppDelegate
 
@@ -69,8 +69,8 @@
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     
 #if !TARGET_IPHONE_SIMULATOR
-    if (YAPPURL.length <= 0) {
-        [self alertNotice:@"" withMessage:@"Error in registration. Please set the 'YAPPURL' in your app." cancleButtonTitle:@"OK" otherButtonTitle:@""];
+    if (YAPSURL.length <= 0) {
+        [self alertNotice:@"" withMessage:@"Error in registration. Please set the 'YAPSURL' in your app." cancleButtonTitle:@"OK" otherButtonTitle:@""];
         return;
     }
     
@@ -78,29 +78,29 @@
 	dt = [dt stringByReplacingOccurrencesOfString:@" " withString:@""];
     
     // DEVICE TOKEN
-	NSString *getString = [NSString stringWithFormat:@"?yapp-api[deviceId]=%@", dt];
+	NSString *getString = [NSString stringWithFormat:@"?yaps-api[deviceId]=%@", dt];
     
     // OS TYPE
-    getString = [getString stringByAppendingString:@"&yapp-api[type]=ios"];
+    getString = [getString stringByAppendingString:@"&yaps-api[type]=ios"];
     
-    // YAPP KEY
-    getString = [getString stringByAppendingString:@"&yapp-api[passkey]="];
-    getString = [getString stringByAppendingString:YAPPKEY];
+    // YAPS KEY
+    getString = [getString stringByAppendingString:@"&yaps-api[passkey]="];
+    getString = [getString stringByAppendingString:YAPSKEY];
     
     // BADGE COUNT
-    getString = [getString stringByAppendingString:@"&yapp-api[badgeCount]="];
+    getString = [getString stringByAppendingString:@"&yaps-api[badgeCount]="];
     getString = [getString stringByAppendingString:[NSString stringWithFormat:@"%d", [UIApplication sharedApplication].applicationIconBadgeNumber]];
     
     // DEVELOPER STATUS
 #ifdef DEBUG
-    getString = [getString stringByAppendingString:@"&yapp-api[development]="];
+    getString = [getString stringByAppendingString:@"&yaps-api[development]="];
     getString = [getString stringByAppendingString:@"sandbox"];
 #else
-    getString = [getString stringByAppendingString:@"&yapp-api[development]="];
+    getString = [getString stringByAppendingString:@"&yaps-api[development]="];
     getString = [getString stringByAppendingString:@"production"];
 #endif
     
-	NSURL *url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@%@", YAPPURL, getString]];
+	NSURL *url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@%@", YAPSURL, getString]];
     
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
@@ -147,7 +147,7 @@
         case UIApplicationStateActive:
             NSLog(@"UIApplicationStateActive");
             
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"YAPP_RECEIVE_PUSH" object:userInfo];
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"YAPS_RECEIVE_PUSH" object:userInfo];
             
             [self playSound:[[userInfo valueForKey:@"aps"] valueForKey:@"sound"]];
             
